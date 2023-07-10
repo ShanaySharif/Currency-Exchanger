@@ -31,8 +31,7 @@ By: Shankaron Mohamed (Shanay)
 ## **Description**
 In this project, I created a currency exchange application that allows users to enter in a amount in USD an returns the currency selected (South korean won, Japanese Yen, Euro, Kenyan Shiling and Dirham). The application determine the most recent exchange rate by making an API call.
 
-## **Setup/Installation Requirements** 
-
+## **Setup/Installation Requirements** &#x1F4BB;
 ###  (this serves as instructions for VS Code)
 
 -   Clone this repository to your local machine.
@@ -42,15 +41,18 @@ In this project, I created a currency exchange application that allows users to 
     -   `npm install`
     -   `npm run build`
 -   Get API key
-    -   Navigate to https://openweathermap.org/
+    -   Navigate to openweathermap.org 
     -   Sign up with the basic plan to get a free API key
-    -   Navigate  to the 
-    -   Copy your key under 
+    -   Copy your key under https://home.openweathermap.org/api_keys
 -   At the root directory, create a `.env` file and enter:
-    -   
+    -   `API_KEY=<paste_your_api_key_here>`<br>
         make sure to remove the angle brackets as well as any whitespaces or extra punctuation.
 -   Save and enter `npm run start` into terminal.
--
+-   A new window will open in your browser
+    - Insert Amount in USD.
+    - Select a 'Conver to' option.
+    - Click submit
+-   Save and enter `npm run start` into terminal.
 
     That's it! Enjoy!
 
@@ -62,14 +64,14 @@ If the program does not run, try the following:
     -   All errors will be routed to the DOM and read on the page.
     -   If 404 error:
         -   Check that the API_KEY variable in your .env file has no trailing whitespace or any punctuation. This includes no semicolon at the end of declaration.
-        -   Check that your API key/access code from ---- is valid.
+        -   Check that your API key/access code from (https://openweathermap.org/api)is valid.
         -   Try generating the GET request in an API development/testing app or in your browser URL:<br>
        
 -   Ensure dotenv is installed
     -   In your Terminal enter `npm install dotenv-webpack@2.0.0 --save-dev`
 
 ## **Known Bugs**
-
+- Error message displays after user hits the submit button.
 
 ## **License**
 
