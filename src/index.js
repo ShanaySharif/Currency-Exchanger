@@ -1,7 +1,5 @@
 //Buisness Logic
 
-
-
 function getConversion(number, currencyToConvertTo) {
   let request = new XMLHttpRequest();
   // eslint-disable-next-line no-console
